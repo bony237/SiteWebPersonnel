@@ -1,0 +1,68 @@
+#bodyAventEntrepreneur img[title=compta], #bodyGestionElec img[title="enjeux du travail"] {
+  display: block;
+  margin: auto;
+  width: 700px;
+}
+@media (max-width: 992px) {
+  #bodyAventEntrepreneur img[title=compta], #bodyGestionElec img[title="enjeux du travail"] {
+    width: 600px;
+  }
+}
+@media (max-width: 740px) {
+  #bodyAventEntrepreneur img[title=compta], #bodyGestionElec img[title="enjeux du travail"] {
+    width: 450px;
+  }
+}
+
+#bodyAventEntrepreneur img[title=ironRobot] {
+  float: right;
+  width: 200px;
+  margin: 0 0 auto 20px;
+}
+
+#bodyParcourAcad #jroi {
+  min-height: 290px;
+}
+#bodyParcourAcad figure {
+  width: 250px;
+  height: 240px;
+  float: right;
+}
+@media (max-width: 500px) {
+  #bodyParcourAcad figure {
+    float: none;
+  }
+}
+
+#bodyIndex img[title="photo personnelle"] {
+  width: 200px;
+  float: right;
+  border-radius: 10px;
+  margin: 10px;
+}
+@media (max-width: 740px) {
+  #bodyIndex img[title="photo personnelle"] {
+    float: none;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+#bodyIndex #chats {
+  display: none;
+}
+#bodyIndex #chats img[title=chat1] {
+  width: 150px;
+  border-radius: 75px 75px;
+}
+#bodyIndex #chats img[title=chat2] {
+  width: 150px;
+  border-radius: 30px;
+  margin: 10px;
+}
+#bodyIndex #hoverChat:hover #chats {
+  display: block;
+}
+
+/*# sourceMappingURL=styleAll.css.map */

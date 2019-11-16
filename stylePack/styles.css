@@ -1,0 +1,105 @@
+/*#bodyGestionElec img[title='enjeux du travail'], #bodyAventEntrepreneur img[title=compta]{
+    width: 700px;
+    display: block;
+    margin: auto;
+}*/
+/*#jroi{
+    min-height: 290px;
+}*/
+
+@media (max-width: 992px) {
+    .noPhone{
+        display: none;
+    }
+    /*#bodyGestionElec img[title='enjeux du travail'], #bodyAventEntrepreneur img[title=compta]{
+        width: 600px;
+        display: block;
+        margin: auto;
+    }*/
+}
+header > span{
+    font-style: italic;
+    margin-left: 7%;
+}
+
+/*#bodyParcourAcad figure{
+    float: right;
+    width: 250px;
+    height: 240px;
+}*/
+/*img[title='photo personnelle']{
+    width: 200px;
+    float: right;
+    border-radius: 10px;
+    margin: 10px;
+}*/
+
+img[title='photo personnelle'] + h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/*@media (max-width: 740px) {
+    #bodyIndex img[title='photo personnelle']{
+        float: none;
+        width: 200px;
+        border-radius: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #bodyGestionElec img[title='enjeux du travail'], #bodyAventEntrepreneur img[title=compta]{
+        width: 450px;
+    }
+}*/
+/*@media (max-width: 500px) {
+    #bodyParcourAcad figure{
+        float: none;
+    }
+}*/
+
+#hoverChat{
+    cursor: pointer;
+    animation: blinking 2s infinite;
+    border-radius: 5px;
+}
+@keyframes blinking{
+    from{background-color: red; color: yellow;}
+    to{background-color: blue; color: green;}
+}
+
+/*#chats{
+    display: none;
+}
+#chats img{
+    width: 150px;
+    border-radius: 75px 75px;
+}
+#chats img[title=chat2]{
+    width: 150px;
+    border-radius: 30px;
+    margin: 10px;
+}
+#hoverChat:hover #chats{
+    display: block;
+
+}*/
+
+/*img[title=ironRobot]{
+    float: right;
+    width: 200px;
+    margin: 0 0 auto 20px;
+}*/
+
+footer{
+    background-color: #0c1a2e;
+    padding: 20px 20px 30px;
+    width: 96%;
+    border-top: solid gray 3px;
+    border-radius: 0 0 5px 5px;
+    margin: auto auto 2px;
+    font-family: "Times New Roman", sans-serif;
+}
+section{
+    min-height: 66vh;
+}
